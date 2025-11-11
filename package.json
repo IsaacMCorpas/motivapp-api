@@ -1,0 +1,11 @@
+{
+  "name": "motivapp-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
+}
