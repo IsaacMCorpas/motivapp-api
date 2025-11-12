@@ -1,7 +1,7 @@
 // api/generate-phrase.js
 const fetch = (...args) => import('node-fetch').then(({default: f}) => f(...args));
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
   try {
     // lee tipo desde query (?tipo=mercadona o ?tipo=gym)
     const tipo = (req.query.tipo || 'gym').toString();
